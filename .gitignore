@@ -31,3 +31,5 @@ pages*
 providers*
 routes*
 utils*
+
+package-lock.json
