@@ -3,7 +3,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import CheckoutForm from "./CheckoutForm";
 import PropTypes from 'prop-types';
 
-// TODO: Replace  your actual publishable key
+
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
 const PaymentModal = ({ isOpen, onClose, paymentInfo, onSuccess }) => {

@@ -24,12 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-components*
-hooks*
-layouts*
-pages*
-providers*
-routes*
-utils*
+
 
 package-lock.json
